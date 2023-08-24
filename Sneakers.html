@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Sneakers.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Sneakers Head</title>
+</head>
+<body>
+    <nav id="nav">
+        <img id="logo" src="/img/3b3ec68fdc85e532de45f7ee8a8003d3.jpg" alt="">
+        <div id="navPart2">
+            <h1 class="navHead">Home</h1>
+            <h1 class="navHead">Type</h1>
+            <h1 class="navHead">Brand</h1>
+            <h1 class="navHead">Trending</h1>
+        </div>
+        <div id="navpart3">
+            <button id="logInBtn">Log in</button>
+        </div>
+        <div onclick="sidebarShow()"  id="hambuger">
+            <i  class="fa-solid fa-bars fa-xl" style="color: #eeeff1;"></i>
+        </div>
+    </nav>
+    <div id="page1">
+        <div id="sidebar">
+            <ul>
+                <li>Home</li>
+                <li>Type</li>
+                <li>Brand</li>
+                <li>Trending</li>
+            </ul>
+        </div>
+        <div class="displayProduct" id="product1">
+            <section class="right">
+                <img src="/img/puma logo.png" alt="" id="pumalogo">
+                <img id="PumaSlipStream" src="/img/puma SlipStream.png" alt="">
+            </section>
+            <section class="left">
+                <h1>Puma Slip Stream</h1>
+                <h2>FEATURES & BENEFITS</h2>
+                <p>
+                   PUMA’s leather products support responsible manufacturing via the Leather Working 
+                </p>
+                <p>
+                   The upper of this shoe is made with at least 20% recycled materials as a step toward a better future
+                </p>
+                <section  class="btns">
+                <button class="buybtn">Buy Now</button>
+                <button>Add To Cart</button>
+                </section>
+            </section>
+        </div>
+        <div class="displayProduct" id="product2">
+            <section class="right">
+                <img src="/img/jordansLogo.png" alt="" id="jordansLogo">
+                <img id="jordan4Retro" src="/img/retro4.png" alt="">
+            </section>
+            <section class="left">
+                <h1 id="jordanHead">Jordan IV Retro<br>Black Cat</h1>
+                <h2>FEATURES & BENEFITS</h2>
+                <p>
+                   This retro nearly mirrors its 2006 release, going black to black to black like a true champion.  
+                </p>
+                <p>
+                   A monochromatic silhouette of nubuck leather and graphite matte finishes are alongside recognisable OG features like hard-shell
+                </p>
+                <section class="btns">
+                <button class="buybtn">Buy Now</button>
+                <button>Add To Cart</button>
+                </section>
+            </section>
+        </div>
+        <div class="displayProduct" id="product3">
+            <section class="right">
+                <img src="/img/adidasLogo.png" alt="" id="adidasLogo">
+                <img id="adidasSuperStar" src="/img/adidasSuperStar.png" alt="">
+            </section>
+            <section class="left">
+                <h1 id="adidasHead">SUPERSTAR Black Shoes</h1>
+                <h2>FEATURES & BENEFITS</h2>
+                <p>
+                   For over 50 years, the adidas Superstar sneaker has been the go-to of sport and street legends, connecting creators across cultures.  
+                </p>
+                <p>
+                   Always in style, this classic silhouette features full-grain leather for enhanced durability and comfort.
+                </p>
+                <section class="btns">
+                <button onclick="showProduc1()" class="buybtn">Buy Now</button>
+                <button>Add To Cart</button>
+                </section>
+            </section>  
+        </div>
+    </div>
+                                      <!-- page2 -->
+    <div id="page2">
+         <div id="brandContainer">
+            <div id="brandHead">
+                <h1>All Brands are Here</h1>
+            </div>
+            <div id="nike">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+       </div>
+    </div>
+
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       <script src="Sneakers.js"></script>
+</body>
+</html>
